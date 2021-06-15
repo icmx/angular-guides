@@ -1,6 +1,6 @@
 # Creating Angular Components Library
 
-> *How to create an Angular 2+ components libray, including library project by itself and demo application for visual testing purpose.*
+> *How to create an Angular 2+ components library, including library project by itself and demo application for visual testing purpose.*
 
 ## Boilerplate preparation
 
