@@ -2,7 +2,7 @@
 
 > *How to create an Angular 2+ components library, including library project by itself and demo application for visual testing purpose.*
 
-## Boilerplate preparation
+## Boilerplate Preparation
 
 First, open a terminal on desired directory and run following commands (variables described below):
 
@@ -48,7 +48,7 @@ Open `$LIB_NAME/src/public-api.ts` and make sure that there is only this line:
 export * from './lib/$LIB_NAME.module';
 ```
 
-## Adding a test component
+## Adding a Test Component
 
 Switch back to terminal and generate a test component to ensure it's all work properly:
 
@@ -76,7 +76,7 @@ export * from './lib/$LIB_NAME.module';
 export * from './lib/test/test.component'; // that one
 ```
 
-## Importing library
+## Importing Library
 
 Open demo application module at `$APP_NAME/src/app/app.module.ts` and import the library module:
 
@@ -122,7 +122,7 @@ Note: these commands must be launched in separate terminal sessions (like in sep
 
 In any way, the result of commands is now available at [localhost:4200](http://localhost:4200/). It's empty for now, because built library is imported, but not used yet.
 
-## Using library
+## Using Library
 
 Open `$APP_NAME/src/app/app.component.html`. Remove all of its content and replace it with following:
 
